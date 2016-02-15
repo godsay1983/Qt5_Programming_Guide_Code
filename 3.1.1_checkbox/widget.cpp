@@ -30,6 +30,14 @@ Widget::Widget(QWidget *parent)
 
     chk_group[0]->setExclusive(false);
     chk_group[1]->setExclusive(true);
+
+    exclusive[0]->setIcon(QIcon(":/pic/res/1.png"));
+    exclusive[1]->setIcon(QIcon(":/pic/res/2.png"));
+    exclusive[2]->setIcon(QIcon(":/pic/res/3.png"));
+
+    non_exclusive[0]->setIcon(QIcon(":/pic/res/4.png"));
+    non_exclusive[1]->setIcon(QIcon(":/pic/res/5.png"));
+    non_exclusive[2]->setIcon(QIcon(":/pic/res/6.png"));
 }
 
 Widget::~Widget()
